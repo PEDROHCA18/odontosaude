@@ -100,11 +100,13 @@ ul{
 
 .textobanner h1 p{
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.267);
+   
 }
 
 .textobanner h1{
     display: flex;
-    flex-wrap: wrap;
+   justify-items: center;
+   align-items: center;
     font-family: bolde;
     color: rgb(255, 255, 255);
     font-size: 3rem;
@@ -420,11 +422,7 @@ header {
     letter-spacing: 1px;
   }
   
-  header .navbar a:hover,
-  .active {
-    background: #2c3e50;
-   
-  }
+  
   
   header .btn {
     font-size: 25px;
@@ -482,7 +480,7 @@ header {
     }
   
     header .navbar a:hover {
-      background: #21293a;
+      background: #115f35;
       color: #fff;
     }
   
@@ -871,4 +869,51 @@ header {
 .especialidade-nome {
   margin-bottom: 10px; /* Espaço abaixo do texto */
   font-weight: bold; /* Texto em negrito */
+}
+
+
+
+
+.textobanner1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  margin-top: -40px; /* sobe um pouco */
+  text-align: center;
+}
+
+.textobanner1 h1 {
+  font-size:55px;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.botao1 {
+  display: inline-block;
+  background-color: #0c906d; /* verde escuro */
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: background 0.3s ease;
+}
+
+.botao1:hover {
+  background-color: #606360;
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 600px) {
+  .textobanner1 h1 {
+    font-size: 1.9rem;
+  }
+
+  .botao1 {
+    padding: 10px 20px;
+    font-size: 1.95rem;
+  }
 }
