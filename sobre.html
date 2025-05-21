@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    
+    <title>Odonto Ciência</title>
+</head>
+<body>
+<header>
+ <!--CABECALHO-->
+ 
+
+ <div class="logo-container">
+    <img src="imagens/logo.png" alt="Logo" class="logo">
+  </div>
+ <nav class="navbar">
+   
+   <div class="btn">
+    
+     <i class="fas fa-times close-btn"></i>
+   </div>
+   
+   <a href="index.html" class="active">INÍCIO</a>
+   <a href="#ESTRUTURA">ESTRUTURA</a>
+   <a href="#EQUIPE">EQUIPE</a>
+   <a href="#LOCAL">LOCALIZAÇÃO</a>
+   <a href="#HORAS">HORÁRIOS</a>
+   <a href="#contato">CONTATOS</a>
+ </nav>
+ <div class="btn">
+   <i class="fas fa-bars menu-btn"></i>
+ </div>
+ </header>
+
+
+<script> 
+ let menus = document.querySelector(".navbar");
+let menus_btn = document.querySelector(".menu-btn");
+let close_btn = document.querySelector(".close-btn");
+
+menus_btn.addEventListener("click", function () {
+menus.classList.add("active2");
+});
+
+close_btn.addEventListener("click", function () {
+menus.classList.remove("active2");
+});
+</script>
+
+<!--BANNER PRINCIPAL-->
+
+    <main class="boxbanner">
+                <div class="textobanner">
+                    <h1>Agende agora sua<br> avaliação com um dentista!</h1>
+                    <p>Logo entraremos em contato.</p><br>
+                    <a class="botao" href="https://api.whatsapp.com/send?1=pt_BR&phone=5586988600302&fbclid=PAQ0xDSwKaouFleHRuA2FlbQIxMAABpxMUFmclNWGRtfVdGTacSKb-7ME7nucwaeGJYxevdgqFdH2sg8ImLMNyA_RK_aem_Lg4xOBUn1tcLqCBv66gLhQ " target="_blank" >AGENDAR</a>
+                </div>
+    </main>
+    <!--SECAO SOBRE-->
+<!-- SEÇÃO SOBRE -->
+
+<div class="legenda" id="ESTRUTURA"><h2>ASSISTA E CONHEÇA NOSSA ESTRUTURA</h2>
+    <p class="contorno" ></p></div></div>
+    <section class="secao-video">
+        
+      
+        <div class="video-container">
+          <video controls preload="none" poster="imagens/thumb-video.jpg">
+            <source src="videos/odontociencia.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeo.
+          </video>
+        </div>
+      </section>
+      
+      <!--EQUIPE-->
+
+
+<div class="legenda" id="EQUIPE"><h2>Conheça Nossa Equipe</h2>
+    <p class="contorno"></p></div>
+
+      <section class="equipe">
+        <p class="equipe-descricao">
+          Profissionais dedicados a cuidar do seu sorriso com carinho e excelência.
+        </p>
+      
+        <div class="equipe-container">
+          <div class="card-equipe">
+            <img src="imagens/equipe/equipe1.jpg" alt="Dra. Ana Paula">
+            <h3>Dra. Conçeiçao Alves</h3>
+          </div>
+      
+          <div class="card-equipe">
+            <img src="imagens/equipe/equipe2.jpg" alt="Dr. Marcos Silva">
+            <h3>Dra. Raíra Ricarde</h3>
+          </div>
+      
+          <div class="card-equipe">
+            <img src="imagens/equipe/equipe3.jpg" alt="Dra. Júlia Fernandes">
+            <h3>Dra. Luiza Vieira</h3>
+          
+          </div>
+          <div class="card-equipe">
+            <img src="imagens/equipe/equipe4.jpg" alt="Dra. Júlia Fernandes">
+            <h3>Dra. Beatriz Santos</h3>
+          
+          </div>
+          <div class="card-equipe">
+            <img src="imagens/equipe/equipe5.jpg" alt="Dra. Júlia Fernandes">
+            <h3>Dra. Ana Beatriz</h3>
+          
+          </div>
+
+          <div class="card-equipe">
+            <p>Responsável por cuidar da saúde bucal básica, realizando limpezas
+              , restaurações e prevenções, além de orientar sobre higiene e encaminhar para especialistas quando necessário.</p>
+            <h3>Dr. Marco Alves</h3>
+          
+          </div>
+          <div class="card-equipe">
+            <p>Profissional com formação avançada em áreas específicas da odontologia,
+               como ortodontia, implantodontia ou endodontia, focado em tratamentos mais complexos e especializados.</p>
+            <h3>Dr. Luís Felipe</h3>
+          
+          </div>
+          
+        </div>
+      </section>
+      
+      <section class="mapa-section">
+        <div class="legenda" id="LOCAL"><h2>ONDE ESTAMOS LOCALIZADOS</h2>
+          <p class="contorno" ></p></div>
+        <div class="mapa-container">
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.068289104084!2d-42.81318349094853!3d-5.0926607948629155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3764070affc7%3A0x7410ce2e6ace8365!2sR.%2024%20de%20Janeiro%2C%20242%20-%20Mafu%C3%A1%2C%20Teresina%20-%20PI%2C%2064002-280!5e0!3m2!1spt-BR!2sbr!4v1747832220888!5m2!1spt-BR!2sbr" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </section>
+
+      <!-- SEÇÃO HORÁRIO -->
+<!-- SEÇÃO HORÁRIO -->
+<div class="legenda" id="sobre"><h2>HORÁRIO DE FUNCIONAMENTO</h2>
+  <p class="contorno" ></p></div>
+<section class="horario-funcionamento">
+  
+  <div class="caixa-horario">
+    <p>Segunda a Sexta: <strong>08h às 12h</strong> / <strong>14h às 18h</strong></p>
+    <p>Sábado: <strong>08h às 12h</strong></p>
+  </div>
+</section>
+
+
+      
+<!--SECAO CONTATOS-->
+
+
+<div class="legenda" id="HORAS"><h2>CONTATOS</h2>
+    <p class="contorno"></p></div>
+
+    
+    <footer class="footer-contato">
+        <div class="contato">
+          <p>📞 Telefone: (86)3304-4092            </p>
+          <p>📍 Endereço: Rua 24 de Janeiro, 242, Teresina, Piauí
+          </p>
+          <div class="redes-sociais">
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5586988600302&fbclid=PAQ0xDSwKaouFleHRuA2FlbQIxMAABpxMUFmclNWGRtfVdGTacSKb-7ME7nucwaeGJYxevdgqFdH2sg8ImLMNyA_RK_aem_Lg4xOBUn1tcLqCBv66gLhQ " target="_blank" class="whatsapp">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/odontocienciac.alves?igsh=bzJ4cGR5ZjZhMHRv " target="_blank" class="instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+        </div>
+    </footer>
+    

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    
+    <title>Odonto Ciência</title>
+</head>
+<body>
+<header>
+ <!--CABECALHO-->
+ 
+
+ <div class="logo-container">
+    <img src="imagens/logo.png" alt="Logo" class="logo">
+  </div>
+ <nav class="navbar">
+   
+   <div class="btn">
+    
+     <i class="fas fa-times close-btn"></i>
+   </div>
+   
+   <a href="index.html" class="active">INÍCIO</a>
+   <a href="#sobre">SOBRE</a>
+   <a href="#informacoes">TRATAMENTOS</a>
+   <a href="#convenio">CONVENIOS</a>
+   <a href="#contato">CONTATOS</a>
+ </nav>
+ <div class="btn">
+   <i class="fas fa-bars menu-btn"></i>
+ </div>
+ </header>
+
+
+<script> 
+ let menus = document.querySelector(".navbar");
+let menus_btn = document.querySelector(".menu-btn");
+let close_btn = document.querySelector(".close-btn");
+
+menus_btn.addEventListener("click", function () {
+menus.classList.add("active2");
+});
+
+close_btn.addEventListener("click", function () {
+menus.classList.remove("active2");
+});
+</script>
+
+<!--BANNER PRINCIPAL-->
+
+    <main class="boxbanner">
+                <div class="textobanner">
+                    <h1>Agende agora sua<br> avaliação com um dentista!</h1>
+                    <p>Logo entraremos em contato.</p><br>
+                    <a class="botao" href="https://api.whatsapp.com/send?1=pt_BR&phone=5586988600302&fbclid=PAQ0xDSwKaouFleHRuA2FlbQIxMAABpxMUFmclNWGRtfVdGTacSKb-7ME7nucwaeGJYxevdgqFdH2sg8ImLMNyA_RK_aem_Lg4xOBUn1tcLqCBv66gLhQ " target="_blank" >AGENDAR</a>
+                </div>
+    </main>
+    <!--SECAO SOBRE-->
+<!-- SEÇÃO SOBRE -->
+
+<div class="legenda" id="sobre"><h2>SOBRE A ODONTO CIÊNCIA</h2>
+    <p class="contorno" ></p></div></div>
+<section class="secao-sobre">
+   
+    <div class="container-sobre">
+       
+      <div class="imagem">
+        <img src="imagens/sobre.jpg" alt="Imagem da Odonto Ciência">
+      </div>
+      <div class="texto">
+        
+        <p>
+          A Odonto Ciência é uma clínica odontológica dedicada a proporcionar serviços de alta qualidade na área da saúde bucal. Com uma equipe de profissionais experientes, oferecemos tratamentos modernos e personalizados, visando sempre o bem-estar e a satisfação dos nossos pacientes. Nossa missão é promover sorrisos saudáveis e radiantes, utilizando tecnologia avançada e práticas seguras.
+        </p>
+        <div class="botao-centro">
+          <a href="sobre.html"><button class="saiba-mais">Saiba Mais</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!--SECAO TRATAMENTOS ODONTOLOGICOS-->
+
+<div class="legenda" id="informacoes"><h2>TRATAMENTOS ODONTOLÓGICOS</h2>
+
+<p class="contorno"></p></div>
+<section class="especialidades">
+    <div class="especialidade-container">
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Dentística</h3>
+            <div class="card-especialidade">
+                <img src="imagens/limpeza1000x600.jpg" alt="Dentística">
+            </div>
+        </div>
+        
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Implantodontia</h3>
+            <div class="card-especialidade">
+                <img src="imagens/implante1000x600.jpg" alt="Implantodontia">
+            </div>
+        </div>
+        
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Ortodontia</h3>
+            <div class="card-especialidade">
+                <img src="imagens/ortodotia1000x600.jpg" alt="Ortodontia">
+            </div>
+        </div>
+        
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Endodontia</h3>
+            <div class="card-especialidade">
+                <img src="imagens/restauracao1000x600.jpg" alt="Endodontia">
+            </div>
+        </div>
+        
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Prótese</h3>
+            <div class="card-especialidade">
+                <img src="imagens/limpeza1000x600.jpg" alt="Prótese">
+            </div>
+        </div>
+        
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Biópsia</h3>
+            <div class="card-especialidade">
+                <img src="imagens/biopsia.png" alt="Biópsia">
+            </div>
+        </div>
+        
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Fisioterapia de ATM</h3>
+            <div class="card-especialidade">
+                <img src="imagens/fiso.png" alt="Fisioterapia de ATM">
+            </div>
+        </div>
+        
+        <div class="especialidade-card">
+            <h3 class="especialidade-nome">Cirurgia Oral Menor</h3>
+            <div class="card-especialidade">
+                <img src="imagens/cirugia.png" alt="Cirurgia Oral Menor">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--SECAO CONVÊNIOS-->
+
+<div class="legenda" id="convenio"><h2>CONVÊNIOS</h2>
+
+    <p class="contorno"></p></div>
+    
+    <section class="convenios">
+        <div class="convenios-container">
+            <div class="card-convenio">
+                <img src="imagens/convenios/amil.png" alt="Convênio Amil">
+            </div>
+    
+            <div class="card-convenio">
+                <img src="imagens/convenios/central.png" alt="Convênio Central">
+            </div>
+    
+            <div class="card-convenio">
+                <img src="imagens/convenios/iapep.png" alt="Convênio IAPEP">
+            </div>
+    
+    
+            <div class="card-convenio">
+                <img src="imagens/convenios/ipmt.png" alt="Convênio IPMT">
+            </div>
+            <div class="card-convenio">
+                <img src="imagens/convenios/prosocial350x350.png" alt="Convênio IPMT">
+            </div>
+            <div class="card-convenio">
+                <img src="imagens/convenios/planassiste.png" alt="Convênio IPMT">
+            </div>
+            <div class="card-convenio">
+                <img src="imagens/convenios/SULAMERICA350x350.png" alt="Convênio IPMT">
+            </div>
+        </div>
+    </section>
+    
+
+<!--SECAO CONTATOS-->
+
+
+<div class="legenda" id="contato"><h2>CONTATOS</h2>
+    <p class="contorno"></p></div>
+
+    
+    <footer class="footer-contato">
+        <div class="contato">
+            
+            <p>📞 Telefone: (86)3304-4092            </p>
+            <p>📍 Endereço: Rua 24 de Janeiro, 242, Teresina, Piauí
+            </p>
+            <div class="redes-sociais">
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5586988600302&fbclid=PAQ0xDSwKaouFleHRuA2FlbQIxMAABpxMUFmclNWGRtfVdGTacSKb-7ME7nucwaeGJYxevdgqFdH2sg8ImLMNyA_RK_aem_Lg4xOBUn1tcLqCBv66gLhQ " target="_blank" class="whatsapp">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                </a>
+                <a href="https://www.instagram.com/odontocienciac.alves?igsh=bzJ4cGR5ZjZhMHRv " target="_blank" class="instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
