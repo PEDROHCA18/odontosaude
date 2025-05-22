@@ -397,7 +397,7 @@ header {
   }
   
   header  {
-    font-size: 30px;
+    font-size: 39px;
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 2px;
@@ -431,7 +431,8 @@ header {
   }
   
   .logo{
-    width: 200px;
+    width: 210px;
+    margin-left: -20%;
   }
   
   
