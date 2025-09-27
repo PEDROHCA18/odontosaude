@@ -76,7 +76,7 @@ ul{
     border-bottom: 8px solid var(--verdeescuroforte);
     box-shadow: 2px 2px 5px rgba(53, 53, 53, 0.288);
         height: 100vh; /* Ocupa toda a altura da tela */
-        background-image: url('imagens/imagen.jpg');
+        background-image: url('imagens/imagee.png');
         background-repeat: no-repeat;
         background-position: center center;
      
@@ -390,7 +390,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
-    background-color: #08d679;
+    background-color: #f0eef7;
     color: #fff;
     height: 70px;
    z-index: 1000;
@@ -401,7 +401,7 @@ header {
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 2px;
-    color: #fff;
+    color: #111111;
   }
   
   header .navbar {
@@ -418,7 +418,7 @@ header {
     margin:10px;
     padding: 15px;
     border-radius: 05px;
-    color: #fff;
+    color: #4f746f;
     letter-spacing: 1px;
   }
   
@@ -452,7 +452,7 @@ header {
       position: fixed;
       flex-direction: column;
       min-width: 100px;
-      background-color: #08d679;
+      background-color: #f0eef7;
       top: 0;
       right: -100%;
     
@@ -482,7 +482,7 @@ header {
   
     header .navbar a:hover {
       background: #115f35;
-      color: #fff;
+      color: #f0eef7;
     }
   
     header .logo {
@@ -917,4 +917,10 @@ header {
     padding: 10px 20px;
     font-size: 1.95rem;
   }
+}
+
+.logo-nome {
+  font-size: 0.25rem; /* Texto pequeno */
+  color: #545454;     /* Verde escuro */
+  margin-top: 2px;
 }
